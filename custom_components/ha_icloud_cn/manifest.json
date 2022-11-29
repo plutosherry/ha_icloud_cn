@@ -1,9 +1,9 @@
 {
-  "domain": "icloud888",
-  "name": "icloud888",
+  "domain": "ha_icloud_cn",
+  "name": "ha_icloud_cn",
   "config_flow": true,
   "version": "1.0",
-  "documentation": "https://github.com/louisslee/icloud888",
+  "documentation": "https://github.com/plutosherry/ha_icloud_cn",
   "dependencies":[],
   "requirements": ["requests>=2.24.0", "keyring>=21.4.0", "keyrings.alt>=3.5.2", "click>=7.1.2", "tzlocal>=4.0", "certifi>=2020.6.20"],
   "codeowners": ["@louisse"],
