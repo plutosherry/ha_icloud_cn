@@ -1,0 +1,11 @@
+{
+  "domain": "icloud888",
+  "name": "icloud888",
+  "config_flow": true,
+  "version": "1.0",
+  "documentation": "https://github.com/louisslee/icloud888",
+  "dependencies":[],
+  "requirements": ["requests>=2.24.0", "keyring>=21.4.0", "keyrings.alt>=3.5.2", "click>=7.1.2", "tzlocal>=4.0", "certifi>=2020.6.20"],
+  "codeowners": ["@louisse"],
+  "iot_class": "cloud_polling"
+}
