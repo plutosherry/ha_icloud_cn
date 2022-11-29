@@ -1,7 +1,7 @@
 """iCloud component constants."""
 from homeassistant.const import Platform
 
-DOMAIN = "icloud888"
+DOMAIN = "ha_icloud_cn"
 
 CONF_WITH_FAMILY = "with_family"
 CONF_MAX_INTERVAL = "max_interval"
