@@ -1,8 +1,7 @@
 # ha_icloud_cn
 easyinstall for hacs, forked from louisslee icloud888 thanks for share
-为方便小白安装，我就简单搞了个简便的hacs集成安装的方法，感谢louis_lee为大家分享此方法！！！ 造福大众！！！
 
-# ha_icloud_cn
+为方便小白安装，我就简单搞了个简便的hacs集成安装的方法，感谢louis_lee为大家分享此方法！！！ 造福大众！！！
 
 ## 缘起
 
@@ -12,8 +11,6 @@ easyinstall for hacs, forked from louisslee icloud888 thanks for share
 
 故此，就搞了这么个HA自定义集成：把原有icloud集成与pyicloud打包起来，将pyicloud中的icloud访问域名修改为icloud.com.cn，并相应修改了icloud集成的依赖。由于/config目录是持久化的，所以在其中的自定义集成不会随着升级、容器重启而发生改变，这样问题就解决啦。
 
-为方便小白安装，搞了个简便的hacs集成安装的方法，
-再次感谢louis_lee为大家分享此方法！！！ 造福大众！！！
 ## 安装方法一（louisslee大神法）
 
 首先将本集成拷贝至homeassistant `/config/custom_components`目录下，推荐方法如下：
